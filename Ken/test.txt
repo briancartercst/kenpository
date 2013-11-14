@@ -1,5 +1,8 @@
 Ken's test text file.
 
 Brian's Line that was added.
+Brian's Line that was added.
 
+
+Ken's 2nd line.
 Brian's 2nd line line.
