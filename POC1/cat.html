@@ -27,7 +27,69 @@
             <div class="span6  menu">
                <div class="row">
                 <a href="index.html" class="span2 icon home"><span>home</span></a>
-                <a href="cat.html" class="span2 icon changelog"><span>service 1</span></a>
+
+                <a href="#wedding" class="span2 icon changelog" data-toggle="modal"><span>Wedding</span></a>
+                        <!--Modal-->
+                          <div id="wedding" class="modal hide fade" tabindex="-1" role="dialog" aria-labelldby="myModalLabel" aria-hidden="true">
+                              <div class="modal-header">   
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                <h3 id="myModalLabel">Wedding Form</h3>
+                              </div>
+                              <div class="modal-body">
+                                <!--Form-->
+                                    <form class="form-horizontal">
+                                        <div class="control-group">
+                                            <lable lcass="control-label" for="FirstName">First Name</label>
+                                            <div class="controls">
+                                              <input type="text" id="FirstName" placeholder="First Name">
+                                            </div>
+                                        </div>
+
+                                         <div class="control-group">
+                                            <lable lcass="control-label" for="LastName">Last Name</label>
+                                            <div class="controls">
+                                              <input type="text" id="LastName" placeholder="Last Name">
+                                            </div>
+                                        </div>
+
+                                          <div class="control-group">
+                                            <lable lcass="control-label" for="Email">Email Address</label>
+                                            <div class="controls">
+                                              <input type="text" id="Email" placeholder="Email Address">
+                                            </div>
+                                        </div>
+
+                                         <div class="control-group">
+                                            <lable lcass="control-label" for="PhoneNumb">Phone Number</label>
+                                            <div class="controls">
+                                              <input type="text" id="PhoneNumb" placeholder="Phone Number">
+                                           </div>
+                                        </div>
+
+                                         <div class="control-group">
+                                            <lable lcass="control-label" for="NumAtt">Number of Attendee's</label>
+                                            <div class="controls">
+                                              <input type="text" id="NumAtt" placeholder="Number of Attendee's">
+                                            </div>
+                                        </div>
+
+                                         <div class="control-group">
+                                            <lable lcass="control-label" for="ReqDates">Requestes Dates</label>
+                                            <div class="controls">
+                                              <input type="text" id="ReqDates" placeholder="Requestes Dates">
+                                            </div>
+                                        </div>
+                                    </form>
+                                <!--EndForm-->
+                                <!--Footer-->
+                              </div>
+                              <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                                <button class="btn btn-primary">Submit</button>
+                              </div>
+                          </div>  
+
+
                 <a href="cat.html" class="span2 icon changelog"><span>service 2</span></a>
                 <a href="cat.html" class="span2 icon changelog"><span>service 3</span></a>
                 <a href="cat.html" class="span2 icon changelog"><span>service 4</span></a>
