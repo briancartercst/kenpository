@@ -90,6 +90,25 @@ $(document).ready(function () {
     app.docs.init();
   }
 });
+/*var dateToday = new Date();
+$(function() {
+    $( "#from" ).datepicker({
+        numberOfMonths: 3,
+        showButtonPanel: true,
+        minDate: dateToday
+    });
+
+
+$(function() {
+    $( "#to" ).datepicker({
+        numberOfMonths: 3,
+        showButtonPanel: true,
+        minDate: dateToday
+    });
+});
+});*/
+
+});
 
 // Start shit up
 app.init();
