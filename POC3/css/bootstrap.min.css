@@ -231,7 +231,7 @@ input.span1{width:46px}.controls-row{*zoom:1}.controls-row:before,.controls-
 row:after{display:table;line-height:0;content:""}.controls-
 row:after{clear:both}.controls-row [class*="span"]{float:left}input[disabled],
 select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[
-readonly]{cursor:not-allowed;background-color:#eee}input[type="radio"][disable
+readonly]{cursor:pointer;background-color:#fff}input[type="radio"][disable
 d],input[type="checkbox"][disabled],input[type="radio"][readonly],input[type="
 checkbox"][readonly]{background-color:transparent}.control-group.warning>label
 ,.control-group.warning .help-block,.control-group.warning .help-

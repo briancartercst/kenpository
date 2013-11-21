@@ -536,8 +536,4 @@ input:-ms-input-placeholder {
 
 }
 
-@media print {
-  .footer, .toc, .menu {
-    display: none;
-  }
-}
+
